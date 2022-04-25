@@ -2,6 +2,7 @@
 //this script will handle login here
 session_start();
 //check if the  already logged in;
+/// 
 if(isset($_SESSION['username']))
 {
   header("location: welcomne.php");//to send welcome.php
